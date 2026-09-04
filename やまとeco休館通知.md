@@ -2,7 +2,6 @@
 marp: true
 theme: default
 paginate: false
-size: 16:9
 backgroundColor: #eee
 color: #111
 ---
