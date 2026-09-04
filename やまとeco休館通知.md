@@ -20,24 +20,24 @@ color: #111
     }
     
     .credit {
-        font-size: 18pt;
-        padding: 5pt;
+        font-size: 20pt;
+        padding: 10pt;
     }
 
     .top-textbox {
-        font-size: 26pt;
+        font-size: 28pt;
         font-weight: bold;
         width: 800px;
         color: #c22; 
         margin: auto;
-        padding: 30px;
+        padding: 40px;
         border: solid #c22 4pt;
         background-color: rgb(250, 206, 206)
     }
 
     .description {
-        font-size: 16pt;
-        padding: 30px;
+        font-size: 18pt;
+        padding: 40px;
     }
 
     .attention {
