@@ -7,17 +7,23 @@ color: #111
 ---
 
 <style>
-    @page {
-        size: 1900px 600px;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
 
     section {
         font-family: 'Noto Serif JP', serif;
         font-size: 14pt;
-        padding: 20px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
     }
     
+    section p {
+        margin: 0.3em 0;
+    }
+
     .credit {
         font-size: 20pt;
         padding: 10pt;
@@ -26,17 +32,16 @@ color: #111
     .top-textbox {
         font-size: 28pt;
         font-weight: bold;
-        width: 800px;
         color: #c22; 
         margin: auto;
-        padding: 40px;
+        padding: 30px 80px;
         border: solid #c22 4pt;
-        background-color: rgb(250, 206, 206)
+        background-color: rgb(235, 228, 228)
     }
 
     .description {
         font-size: 18pt;
-        padding: 40px;
+        line-height: 1.6;
     }
 
     .attention {
